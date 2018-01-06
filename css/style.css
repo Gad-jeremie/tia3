@@ -374,18 +374,30 @@ padding: 1em;
 
 #logobanner{
 	width: 100%;
-	min-height: 1px;
+	height: 98px;
 	background: #111;
 	display: block;
 	z-index: 10;
 	position: absolute;
 }
-.text{
+/*.text{
 	width: 60%;
 	height: 98px;
 	min-height: 1px;
 	background: #942;
 	float: right;
+}*/
+
+ .logo{
+ 	min-height: 1px;
+	background: red; 	
+ 	width: 40%;
+ }
+
+.logo img{
+	width: 90px;
+	margin:.7em 4.3em;
+	 
 }
 /*hide desktop logo*/
 #logodesktop{
@@ -398,20 +410,7 @@ display: none;
   position: absolute;
  }
 
- .logo{
- 	min-height: 1px;
-/* 	background: red;*/
- 	display: inline-block;
- 	width: 40%;
- }
 
-.logo img{
-	width: 90px;
-	margin:.7em 4.3em;
-	float: left;
-
-
-}
 	
 ul.dropdown {
   display:none;
