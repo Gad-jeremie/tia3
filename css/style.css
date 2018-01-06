@@ -22,9 +22,9 @@ text-decoration: none;
 outline:none;
 }
 .search {
-background: #987e4a;
+background: #373737;
     font-size: .83rem;
-    border-top: .1em solid #bb9e5e;
+    border-top: .1em solid #967e4a;
     width: 97%;
     padding: .74rem .5rem!important;
 }
@@ -167,7 +167,7 @@ border-radius: 100%;
 
 
  /*mobile logo*/
- #logo{
+ #logobanner{
  display: none;
  }
 
@@ -196,7 +196,7 @@ border-radius: 100%;
 header {
 	min-height: 1px;
 	position: relative;
-	background-color: #9e8552;
+	background-color: #373737;
 	padding:.7em 0 .5em 2em;
 }
  
@@ -372,16 +372,21 @@ padding: 1em;
  }
 
 
-#logo{
+#logobanner{
 	width: 100%;
 	min-height: 1px;
 	background: #111;
 	display: block;
 	z-index: 10;
 	position: absolute;
-
 }
-
+.text{
+	width: 60%;
+	height: 98px;
+	min-height: 1px;
+	background: #942;
+	float: right;
+}
 /*hide desktop logo*/
 #logodesktop{
 display: none;
@@ -393,10 +398,20 @@ display: none;
   position: absolute;
  }
 
-#logo img{
+ .logo{
+ 	min-height: 1px;
+/* 	background: red;*/
+ 	display: inline-block;
+ 	width: 40%;
+ }
+
+.logo img{
 	width: 90px;
-	margin:.7em auto;
-	display: block;
+	margin:.1em 4.3em;
+ 
+	position: absolute;
+
+
 }
 	
 ul.dropdown {
@@ -415,7 +430,7 @@ ul.dropdown {
 header {
 	height: 61px;
 	z-index: 2;
-	background-color: #9e8552;	
+	background-color: #373737;	
 	position: fixed;
 	border-bottom:.05em solid #222;
 	top: 0;
