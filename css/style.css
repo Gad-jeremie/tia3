@@ -380,18 +380,19 @@ padding: 1em;
 	z-index: 10;
 	position: absolute;
 }
-/*.text{
+.text{
 	width: 60%;
 	height: 98px;
 	min-height: 1px;
 	background: #942;
 	float: right;
-}*/
+}
 
  .logo{
  	min-height: 1px;
 	background: red; 	
  	width: 40%;
+ 	float: left;
  }
 
 .logo img{
