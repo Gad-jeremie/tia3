@@ -50,6 +50,18 @@ appearance: none;
   padding: 0;
 }
 
+.form__input {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+          width: 91%;
+          font-size: 13px;
+          font-weight: 400;
+          /*background-color: #fff;*/
+          background: #fff;
+  color: #444;
+  padding: .72rem .5rem;
+}
 
 .search {
 background: #373737;
@@ -428,7 +440,7 @@ padding: 1em;
 
 .logo img{
 	width: 90px;position: relative;
-	left: 1.35em;
+	left: 1.37em;
 	top:.17em;
  
 
