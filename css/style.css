@@ -382,15 +382,15 @@ padding: 1em;
 }
 .text{
 	width: 60%;
-	height: 98px;
+	height: 99px;
 	min-height: 1px;
-	background: #942;
+	background: #eee;
 	float: right;
 }
 
  .logo{
  	min-height: 1px;
-	background: #f6f6f6; 	
+	background: #252525;	
  	width: 40%;
  	float: left;
  }
