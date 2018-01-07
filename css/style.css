@@ -21,6 +21,36 @@ a {
 text-decoration: none;
 outline:none;
 }
+
+
+::-webkit-input-placeholder {
+  color: #444;
+}
+
+:-ms-input-placeholder {
+  color: #444;
+}
+
+::-ms-input-placeholder {
+  color: #444;
+}
+
+::placeholder {
+  color: #444;
+}
+
+input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+appearance: none;
+  border: none;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
+
+
 .search {
 background: #373737;
     font-size: .83rem;
@@ -398,7 +428,7 @@ padding: 1em;
 
 .logo img{
 	width: 90px;position: relative;
-	left: 1.32em;
+	left: 1.35em;
 	top:.17em;
  
 
