@@ -390,7 +390,7 @@ padding: 1em;
 
  .logo{
  	min-height: 1px;
-	background: red; 	
+	background: #f6f6f6; 	
  	width: 40%;
  	float: left;
  }
