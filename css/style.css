@@ -382,7 +382,7 @@ padding: 1em;
 }
 .text{
 	width: 65%;
-	height: 89px;
+	height: 90px;
  
 	background: #eee;
 	float: right;
@@ -398,7 +398,7 @@ padding: 1em;
 
 .logo img{
 	width: 90px;position: relative;
-	left: 2.65em;
+	left: 1em;
 	top:.17em;
  
 
