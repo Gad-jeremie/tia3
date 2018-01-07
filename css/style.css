@@ -17,10 +17,8 @@ body {
 	-ms-text-size-adjust: none;
 	-ms-font-smoothing: antialiased;
 }
-a {
-text-decoration: none;
-outline:none;
-}
+
+/*search*/
 
 
 ::-webkit-input-placeholder {
@@ -50,6 +48,40 @@ appearance: none;
   padding: 0;
 }
 
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+          appearance: none;
+}
+
+input[type="submit"] {
+cursor: pointer;
+}
+
+.form__field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+
+}
+
+.dropdown .zz {
+    text-decoration: none;
+    padding:0;
+    display: block;
+}
+
 .form__input {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -62,6 +94,11 @@ appearance: none;
   color: #444;
   padding: .72rem .5rem;
 }
+a {
+text-decoration: none;
+outline:none;
+}
+
 
 .search {
 background: #373737;
@@ -440,7 +477,7 @@ padding: 1em;
 
 .logo img{
 	width: 90px;position: relative;
-	left: 1.37em;
+	left: 1.4em;
 	top:.17em;
  
 
