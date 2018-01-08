@@ -519,7 +519,7 @@ header {
 	z-index: 2;
 	background: #2f1605;	
 	position: fixed;
-	 
+	border: solid .03em #2b1404;	 
 	top: 0;
 	right: 0;
 	left: 0;
