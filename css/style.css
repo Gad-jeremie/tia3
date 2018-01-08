@@ -107,7 +107,7 @@ outline:none;
 
 
 .search {
-background:#351a08;
+background:#2f1605;
     font-size: .83rem;
     border-top: .1em solid #967e4a;
     width: 97%;
@@ -460,7 +460,6 @@ padding: 1em;
 #logobanner{
 	width: 100%;
 	min-height: 1px;
-	background: #111;
 	display: block;
 	z-index: 10;
 	position: absolute;
@@ -475,7 +474,7 @@ padding: 1em;
 }
 
  .logo{
-	background: #252525;	
+	background:#351a08;	
  	width: 35%;
  	float: left;
  	padding: .3em 0;
@@ -520,7 +519,7 @@ header {
 	z-index: 2;
 	background: #351a08;	
 	position: fixed;
-	border-bottom:.05em solid #222;
+	 
 	top: 0;
 	right: 0;
 	left: 0;
