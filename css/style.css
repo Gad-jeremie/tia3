@@ -107,7 +107,7 @@ outline:none;
 
 
 .search {
-background: #373737;
+background:#42210b ;
     font-size: .83rem;
     border-top: .1em solid #967e4a;
     width: 97%;
@@ -281,7 +281,7 @@ border-radius: 100%;
 header {
 	min-height: 1px;
 	position: relative;
-	background-color: #48260e;
+	background-color: #42210b;
 	padding:.7em 0 .5em 2em;
 }
  
@@ -518,7 +518,7 @@ ul.dropdown {
 header {
 	height: 61px;
 	z-index: 2;
-	background: #48260e;	
+	background: #42210b;	
 	position: fixed;
 	border-bottom:.05em solid #222;
 	top: 0;
