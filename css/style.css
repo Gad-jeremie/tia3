@@ -281,7 +281,7 @@ border-radius: 100%;
 header {
 	min-height: 1px;
 	position: relative;
-	background-color: #2d1c0c;
+	background-color: #48260e;
 	padding:.7em 0 .5em 2em;
 }
  
@@ -518,7 +518,7 @@ ul.dropdown {
 header {
 	height: 61px;
 	z-index: 2;
-	background: #2d1c0c;	
+	background: #48260e;	
 	position: fixed;
 	border-bottom:.05em solid #222;
 	top: 0;
