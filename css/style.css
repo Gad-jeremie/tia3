@@ -76,6 +76,12 @@ cursor: pointer;
 
 }
 
+/*.to{
+	width: 100%;
+	height: 400px;
+	background: red;
+}*/
+
 .dropdown .zz {
     text-decoration: none;
     padding:0;
@@ -349,6 +355,8 @@ border: 1px dashed rgba(190, 196, 202, 0.9);
 
 
 @media only screen and (max-width: 780px) {
+
+	
 
 	 .button {
     right: 0em!important;
