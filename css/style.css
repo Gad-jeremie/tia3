@@ -154,7 +154,7 @@ padding: .1em!important;
     width: 23.5px;
     vertical-align: middle;
     top: 17px!important;
-   right:11.56em!important;
+   right:11.53em;
     padding: .41em 1em;
     cursor: pointer;
     /*background: red;*/
@@ -371,7 +371,7 @@ border: 1px dashed rgba(190, 196, 202, 0.9);
     width: 20px;
     vertical-align: middle;
     top: .94em!important;
-    right: 8.77em;
+    right: 8.79em;
     padding: .79em .8em;
 
 }
