@@ -371,7 +371,7 @@ border: 1px dashed rgba(190, 196, 202, 0.9);
     width: 20px;
     vertical-align: middle;
     top: .94em!important;
-    right: 8.79em;
+    right: 8.79em!important;
     padding: .79em .8em;
 
 }
