@@ -507,15 +507,13 @@ display: block;
 display: none;
 }
 
- #menuicon{
-  display:block;
-  background: #e9e9e9;
-  
+#menuicon{
+display:block;
+background: transparent;  
 height: 50px;
-width: 45%;
-  margin: .75em auto;
-
- }
+width: 44%;
+margin: .75em auto;
+}
 
 
 	
