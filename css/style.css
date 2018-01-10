@@ -169,7 +169,7 @@ padding: .1em!important;
 	border-radius: 50%;
 }
 #usericon:hover,.search-toggle:hover,#carticon:hover,.button:hover{
-	background: rgba(148,91,31, 0.19);
+	background: rgba(148,91,31, 0.29);
 	 
 }
 
@@ -508,11 +508,11 @@ display: none;
 }
 
  #menuicon{
-  display: block;
+  display:block;
   background: #e9e9e9;
   
 height: 50px;
-width: 34.6%;
+width: 40%;
   margin: .75em auto;
 
  }
