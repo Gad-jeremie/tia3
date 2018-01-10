@@ -1,5 +1,5 @@
 body {
-	background-color: #a76532;
+	background-color: #000;
 	
 	font: 12px "Open Sans", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	color: #9aa6af;
@@ -18,17 +18,96 @@ body {
 	-ms-font-smoothing: antialiased;
 }
 
-
-.mainbody {
+.main { 
 background: #eee;
 height: 900px;
 }
 
- 
+
+::-webkit-input-placeholder {
+  color: #444;
+}
+
+:-ms-input-placeholder {
+  color: #444;
+}
+
+::-ms-input-placeholder {
+  color: #444;
+}
+
+::placeholder {
+  color: #444;
+}
+
+input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+appearance: none;
+  border: none;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+          appearance: none;
+}
+
+input[type="submit"] {
+cursor: pointer;
+}
+
+.form__field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+
+}
+
+/*.to{
+	width: 100%;
+	height: 400px;
+	background: red;
+}*/
+
+.dropdown .zz {
+    text-decoration: none;
+    padding:0;
+    display: block;
+}
+
+.form__input {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+          width: 91%;
+          font-size: 13px;
+          font-weight: 400;
+          /*background-color: #fff;*/
+          background: #fff;
+  color: #444;
+  padding: .72rem .5rem;
+}
 a {
 text-decoration: none;
 outline:none;
 }
+
 
  
 
@@ -36,21 +115,34 @@ outline:none;
 .cls-3,.cls-2,.cls-1,.cls-4{
  fill:#6d3a11;
 }
+
  
 
-#usericon,.search-toggle,#carticon,.button,.search-toggle{
-	background: rgba(148,91,31, 0.19);
-	border-radius: 50%;
-}
 #usericon:hover,.search-toggle:hover,#carticon:hover,.button:hover{
 	background: rgba(148,91,31, 0.19);
-	 
 }
+ 
 
+ /*mobile logo*/
+ #logobanner{
+ display: none;
+ }
+
+/*menuicon*/
+ #menuicon{
+  right: 1.2em;
+  top: -.3em;
+  position: absolute;
+ }
+ /*desktop logo*/
+ #logodesktop img{
+ width: 100px;
+ margin-top:.2em; 
+}
 
 .container {
 	overflow: hidden;
-	background-color: #111;
+	background-color: #000;
 
 /*  Prevents Flickering  */
 	-webkit-backface-visibility: hidden;
@@ -87,7 +179,7 @@ header {
     margin: 4px 0;
 }
 
-.burger.open li {background-color: #8e5325}
+.burger.open li {background-color: #8e4d19;}
 
 nav {
 	position: absolute;
@@ -110,7 +202,7 @@ nav li a:hover {color: #da8610;}
 
 /*  Removable CSS  */
 
-/*.header-section,
+.header-section,
 .body-section,
 .footer-section 
 {padding: 20px;}
@@ -128,19 +220,23 @@ border: 1px dashed rgba(190, 196, 202, 0.5);
 .footer-section .placefiller {
 line-height: 200px;
 border: 1px dashed rgba(190, 196, 202, 0.9);
-}*/
+}
 
 
 
 
 
 @media only screen and (max-width: 780px) {
- 
-.mainbody {margin-top: 60px;
 
-}
+ 
+
+	 .button {
+    right: 0em!important;
+ }
+ 
+
 /*override for cart icon*/
-/*#carticon{
+#carticon{
 	position: absolute;
     height: 20px;
     width: 20px;
@@ -149,10 +245,49 @@ border: 1px dashed rgba(190, 196, 202, 0.9);
     right: 8.8em!important;
     padding: .79em .8em;
 
-}*/
+}
+
+.form__field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-right: .7em;
+
+}
+
+.form__input {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+          width: 80%!important;
+          background-color: #fff;
+  color: #42454e;
+  padding: .2rem .5rem!important;
+}
+
+
+.dropdown .zz {
+    text-decoration: none;
+    padding:0;
+    display: block;
+}
+#searchbutton{
+display: block;
+  margin: .45em .44em;
+  fill:#000;
+   vertical-align: middle;
+     height: 26px;
+    width: 26px;
+}
  
+ 
+
+
+
 /*to go to mobile
-*//*#usericon{
+*/#usericon{
 position: absolute;
 height: 1.25em;
 width: 1.25em;
@@ -163,19 +298,95 @@ padding: 1em;
 }
 
 
-*/ 
 
+
+
+/* the animated search icon */  
+.search-toggle {
+/*background: rgba(255, 255, 255, 0.3);*/
+  /*-webkit-box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.1);*/
+/*  border-radius: 100%;*/
+ padding: 1.43em!important;
+ font-size: 1.14em; 
+ line-height: 0;
+ -webkit-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+ position: absolute;
+ top: 2.35em;
+  right: -.8em!important;
+}
+
+
+/*search input override*/
+.search {
+  padding: .74rem .5rem!important;
+ width: 100%!important;
+
+}
+
+.search-icon {
  
-/* #menuicon{
-  display: block;
-  background: red;
-  opacity: 1;
-height: 50px;
-width: 49%;
-  margin: .74em auto;
-
+  font-size: 8px;
  }
-*/
+
+
+#logobanner{
+	width: 100%;
+	min-height: 1px;
+	display: block;
+	z-index: 10;
+	top:2em;
+	position: absolute;
+}
+.text{
+	width: 65%;
+	height: 90px;
+ 
+	background: #eee;
+	float: right;
+	display: block;
+}
+
+ .logo{
+	background:#351a08;	
+ 	width: 35%;
+ 	float: left;
+ 	padding: .3em 0;
+ }
+
+.logo img{
+	width: 90px;position: relative;
+	left: 1.4em;
+	top:.17em;
+ 
+
+	 
+}
+/*hide desktop logo*/
+#logodesktop{
+display: none;
+}
+
+ #menuicon{
+  right: 0em;
+  top: 0em;
+  position: absolute;
+ }
+
+
+	
+ul.dropdown {
+  display:none;
+  position: relative!important;
+  top: 5em!important;
+ margin: 0 auto!important;
+   right: 0!important;
+ width: 100%!important;
+  padding: 0!important;
+  border-radius: 0 0 .2em .2em;
+}
+	
  
 
 header {
@@ -225,18 +436,19 @@ nav li a.logo {
 	display: none;
 }
 nav li a.active {
-	color: #fff;
-	background-color: #a76532;
+	color: #6d3a11;
+	background-color: #141e23;
 }
 nav li a:hover {
-	color: #a76532;
-	background-color: #fff;
+	color: #fff;
+	background-color: #19252c;
 }
 nav li:first-child a.active,
 nav li:first-child a:hover 
 {border-radius: 10px 0 0 0;}
 
-
+.main {margin-top: 60px;
+}
 
 /* NAVIGATION ANNIMATION */
 nav {
@@ -246,8 +458,8 @@ nav {
 	left: 0;
 	top: 0;
 	margin: 0;
-	background:#e4e4e4;
-	border-radius: 6px;
+	background-color:#c7c6c6;
+	border-radius: 8px;
 	
 	/* starting point */
 	opacity: .3;
