@@ -130,7 +130,7 @@ background:#2f1605;
  /*  background: #444;*/ 
     padding: .6em 1.1em;
     cursor: pointer;
-    border-radius: .1em;
+     
 }
 
 
@@ -139,7 +139,7 @@ position: relative;
    outline: 0;
 padding: .1em!important;
     border:1px transparent;      
-    border-radius: .1em;
+     
     cursor: pointer;
     margin: auto .4em!important;
     display: block;
@@ -148,7 +148,7 @@ padding: .1em!important;
  }
 /*override for cart icon*/
 #carticon{
-	border-radius: .1em;
+	
 	position: absolute;
     height: 23.5px;
     width: 23.5px;
@@ -158,12 +158,18 @@ padding: .1em!important;
     padding: .41em 1em;
     cursor: pointer;
     /*background: red;*/
+    background: rgba(148,91,31, 0.19);
 }
 
 
 
+#usericon,.search-toggle,#carticon,.button,.search-toggle{
+	background: rgba(148,91,31, 0.19);
+	border-radius: 50%;
+}
 #usericon:hover,.search-toggle:hover,#carticon:hover,.button:hover{
 	background: rgba(148,91,31, 0.19);
+	 
 }
 
 /* the animated search icon */  
@@ -182,7 +188,7 @@ padding: .1em!important;
   top: 35px;
   right: .3em;
    cursor: pointer;
-   border-radius: .1em;
+   
 }
 .search-icon {
   position: absolute;
@@ -310,7 +316,7 @@ header {
     margin: 4px 0;
 }
 
-.burger.open li {background-color: #d9dde1;}
+.burger.open li {background-color: #8e5325}
 
 nav {
 	position: absolute;
@@ -333,7 +339,7 @@ nav li a:hover {color: #da8610;}
 
 /*  Removable CSS  */
 
-.header-section,
+/*.header-section,
 .body-section,
 .footer-section 
 {padding: 20px;}
@@ -351,7 +357,7 @@ border: 1px dashed rgba(190, 196, 202, 0.5);
 .footer-section .placefiller {
 line-height: 200px;
 border: 1px dashed rgba(190, 196, 202, 0.9);
-}
+}*/
 
 
 
@@ -578,8 +584,10 @@ nav li:first-child a.active,
 nav li:first-child a:hover 
 {border-radius: 10px 0 0 0;}
 
-.header-section {margin-top: 60px;padding-top: 11em}
-
+.mainbody {margin-top: 60px;
+background: #eee;
+height: 900px;
+}
 
 /* NAVIGATION ANNIMATION */
 nav {
