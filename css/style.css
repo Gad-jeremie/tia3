@@ -91,14 +91,7 @@ header {
     cursor: pointer;
     display: none;
 }
-
-.class{
-	background: red!important;
-	height: 3em;
-	position: absolute;
-	width: 3em;
-	display: block;
-}
+ 
 .burger li {
     width: 27px;
     height: 4px;
