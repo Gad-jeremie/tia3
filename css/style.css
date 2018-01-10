@@ -28,7 +28,7 @@ outline:none;
 
 
 #usericon,.search-toggle,#carticon,.button{
-background: transparent;
+ background: rgba(209,149,84, 0.19);
 }
 
 
@@ -91,7 +91,7 @@ header {
     cursor: pointer;
     display: none;
 }
- 
+
 .burger li {
     width: 27px;
     height: 4px;
@@ -100,7 +100,7 @@ header {
     margin: 4px 0;
 }
 
-.burger.open li {background:#7d3a0f;}
+.burger.open li {background:rgb(162, 81, 28);}
 
 nav {
 	position: absolute;
