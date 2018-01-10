@@ -28,12 +28,12 @@ outline:none;
 
 
 #usericon,.search-toggle,#carticon,.button{
-background: rgba(174,116,54, 0.19);
+background: transparent;
 }
 
 
 #usericon:hover,.search-toggle:hover,#carticon:hover,.button:hover{
-background: rgba(148,91,31, 0.19);
+background: rgba(174,116,54, 0.19);
 }
 
 
@@ -92,16 +92,22 @@ header {
     display: none;
 }
 
-
+.class{
+	background: red!important;
+	height: 3em;
+	position: absolute;
+	width: 3em;
+	display: block;
+}
 .burger li {
     width: 27px;
     height: 4px;
-    background-color: #da8610;
+    background-color: #6a300a;
     border-radius: 3px;
     margin: 4px 0;
 }
 
-.burger.open li {background-color: #d9dde1;}
+.burger.open li {background:#7d3a0f;}
 
 nav {
 	position: absolute;
