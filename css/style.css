@@ -26,9 +26,17 @@ outline:none;
 	fill: #6a300a;
 }
 
-#usericon:hover,.search-toggle:hover,#carticon:hover,.button:hover{
-	background: rgba(148,91,31, 0.19);
+
+#usericon,.search-toggle,#carticon,.button{
+background: rgba(174,116,54, 0.19);
 }
+
+
+#usericon:hover,.search-toggle:hover,#carticon:hover,.button:hover{
+background: rgba(148,91,31, 0.19);
+}
+
+
 .main{
 	background: #eee;
 	width: 100%;
@@ -162,9 +170,9 @@ display: none;
 
  #menuicon{
   right: .4em;
-  top: 0.71em;
+  top: 0.6em;
   height: 3.6em;
-  background: #444!important;
+  /*background: #444!important;*/
   position: absolute;
   width: 48%;
  }
