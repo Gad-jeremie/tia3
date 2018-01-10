@@ -116,7 +116,7 @@ background:#2f1605;
 
 /*search icon*/
 .cls-3,.cls-2,.cls-1,.cls-4{
- fill:#fdc03f;
+ fill:#6d3a11;
 }
 
 /*to go to mobile
@@ -192,7 +192,7 @@ padding: .1em!important;
   display: inline-block;
   vertical-align: middle;
   font-size: 10px;
-   color: #fdc03f;
+   color: #6d3a11;
 /*  background: rgba(255, 255, 255, 0.3);*/
 border-radius: 100%;
   -webkit-transform: translate(-50%, -50%);
@@ -285,7 +285,7 @@ header {
 	min-height: 1px;
 	position: relative;
  background: #fff;
-  box-shadow: 0 1px 5px rgba(0,0,0,0.13), 0 1px 5px rgba(0,0,0,0.21);
+  box-shadow: 0 1px 6px rgba(0,0,0,0.13), 0 1px 6px rgba(0,0,0,0.22);
  
 	padding:.7em 0 .5em 2em;
 }
@@ -305,7 +305,7 @@ header {
 .burger li {
     width: 27px;
     height: 4px;
-    background-color: #fdc03f;
+    background: #6d3a11;
     border-radius: 3px;
     margin: 4px 0;
 }
