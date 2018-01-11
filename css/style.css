@@ -260,7 +260,8 @@ nav {
 	-webkit-transform: translate3d(5%,0,0)scale(.97);
 	-moz-transform: translate3d(5%,0,0)scale(.97);
 	transform: translate3d(5%,0,0)scale(.97);
-	-webkit-backface-visibility: hidden;
+	-webkit-transform:translate3d(0,0,0);
+
 }
 
 /*Nav Expanding Open Effect*/
