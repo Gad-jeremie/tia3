@@ -248,7 +248,7 @@ nav li:first-child a:hover
 nav {
 	position: fixed;
 	width: 93%;
-	min-height: 1;	
+	min-height: 1px;	
 	display: block;
 	left: 0;
 	top: 0;
