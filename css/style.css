@@ -254,14 +254,13 @@ nav {
 	margin: 0;
 	background-color: #1d2d35;
 	border-radius: 8px;
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility: hidden;
-	-ms-backface-visibility: hidden;
+	
 	/* starting point */
 	opacity: .3;
 	-webkit-transform: translate3d(5%,0,0)scale(.97);
 	-moz-transform: translate3d(5%,0,0)scale(.97);
 	transform: translate3d(5%,0,0)scale(.97);
+	-webkit-backface-visibility: hidden;
 }
 
 /*Nav Expanding Open Effect*/
