@@ -239,7 +239,9 @@ nav li a.active {
 }
 nav li a:hover {
 	color: #fff;
-	background-color:rgba(232,172,108, 0.17);
+	background-color: rgba(79, 46, 10, 0.17);
+}
+
 }
 nav li:first-child a.active,
 nav li:first-child a:hover 
