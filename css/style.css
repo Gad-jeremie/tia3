@@ -248,6 +248,7 @@ nav {
 	width: 93%;
 	height: 100%;
 	position: fixed;
+	display: block;
 	left: 0;
 	top: 0;
 	margin: 0;
