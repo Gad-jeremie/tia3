@@ -211,7 +211,10 @@ header {
 
 /*  Nav Drawer Layout  */
 nav {position: fixed;
-display: block;}
+display: block;
+height: 100%;
+-webkit-transform-style: preserve-3d;
+-webkit-backface-visibility: hidden;}
 
 nav ul {
 	height: 100%;
