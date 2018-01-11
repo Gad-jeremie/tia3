@@ -61,7 +61,7 @@ outline:none;
 
 .container {
 	overflow: hidden;
-	background-color: #1d2d35;
+   background-color: rgb(119, 58, 19);;
 /*  Prevents Flickering  */
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
@@ -111,8 +111,7 @@ nav li {
 nav li a {
     font-size: 11px;
     font-weight: bold;
-	color: #e8e7e7;
-	/*background: red;*/
+	color: #ecddd2;
 	padding: 9px 14px;	
 	display: block;
 }
@@ -211,6 +210,11 @@ header {
 
 
 /*  Nav Drawer Layout  */
+
+#brand{
+	padding-top: 5.1em;
+	background: #e8e8e8;
+}
 nav {position: relative;}
 
 nav ul {
@@ -222,20 +226,20 @@ nav li {
 	float: none;
 }
 nav li a {
-	padding: 23px 25px;
-	letter-spacing: 3px;
-	font-size: 14px;
+	padding: 16px 25px;
+	letter-spacing: 1px;
+	font-size: 12px;
 }
 nav li a.logo {
 	display: none;
 }
 nav li a.active {
 	color: #fff;
-	background-color: #141e23;
+	background-color: rgb(109, 49, 10);
 }
 nav li a:hover {
 	color: #fff;
-	background-color: #19252c;
+	background-color:rgba(232,172,108, 0.17);
 }
 nav li:first-child a.active,
 nav li:first-child a:hover 
@@ -253,7 +257,7 @@ nav {
 	left: 0;
 	top: 0;
 	margin: 0;
-	background-color: #1d2d35;
+		background-color: rgb(119, 58, 19);
 	border-radius: 8px;
 	
 	/* starting point */
