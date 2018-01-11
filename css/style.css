@@ -62,12 +62,10 @@ outline:none;
 .container {
 	overflow: hidden;
 	background-color: #1d2d35;
-
 /*  Prevents Flickering  */
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	-ms-backface-visibility: hidden;
-
 	-webkit-transform-style: preserve-3d;
     -webkit-backface-visibility: hidden;
 }
@@ -224,7 +222,7 @@ nav li {
 	float: none;
 }
 nav li a {
-	padding: 22px 25px;
+	padding: 23px 25px;
 	letter-spacing: 3px;
 	font-size: 14px;
 }
