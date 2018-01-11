@@ -210,7 +210,8 @@ header {
 
 
 /*  Nav Drawer Layout  */
-nav {position: relative;}
+nav {position: fixed;
+display: block;}
 
 nav ul {
 	height: 100%;
@@ -245,9 +246,9 @@ nav li:first-child a:hover
 
 /* NAVIGATION ANNIMATION */
 nav {
-	width: 93%;
-	height: 100%;
 	position: fixed;
+	width: 93%;
+	min-height: 1;	
 	display: block;
 	left: 0;
 	top: 0;
@@ -256,11 +257,10 @@ nav {
 	border-radius: 8px;
 	
 	/* starting point */
-/*	opacity: .3;
+	opacity: .3;
 	-webkit-transform: translate3d(5%,0,0)scale(.97);
 	-moz-transform: translate3d(5%,0,0)scale(.97);
 	transform: translate3d(5%,0,0)scale(.97);
-	-webkit-transform:translate3d(0,0,0);*/
 
 }
 
