@@ -1,5 +1,5 @@
 body {
-	background-color: #000;
+	background-color: #1d2d35;
 	
 	font: 12px "Open Sans", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	color: #9aa6af;
@@ -210,11 +210,7 @@ header {
 
 
 /*  Nav Drawer Layout  */
-nav {position: fixed;
-display: block;
-height: 100%;
--webkit-transform-style: preserve-3d;
--webkit-backface-visibility: hidden;}
+nav {position: relative;}
 
 nav ul {
 	height: 100%;
