@@ -256,15 +256,11 @@ nav {
 	border-radius: 8px;
 	
 	/* starting point */
-	opacity: .3;
+/*	opacity: .3;
 	-webkit-transform: translate3d(5%,0,0)scale(.97);
 	-moz-transform: translate3d(5%,0,0)scale(.97);
 	transform: translate3d(5%,0,0)scale(.97);
-	-webkit-transform:translate3d(0,0,0);
-	-webkit-transform-style: preserve-3d;
--webkit-backface-visibility: hidden;
-overflow-wrap: break-word;
-  word-wrap: break-word;
+	-webkit-transform:translate3d(0,0,0);*/
 
 }
 
