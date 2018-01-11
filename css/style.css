@@ -61,7 +61,7 @@ outline:none;
 
 .container {
 	overflow: hidden;
-	background-color: #1d2d35;
+	background-color: transparent!important;
 /*  Prevents Flickering  */
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
