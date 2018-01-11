@@ -1,5 +1,5 @@
 body {
-	background-color: #1d2d35;
+	background-color: #000;
 	
 	font: 12px "Open Sans", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	color: #9aa6af;
@@ -67,6 +67,9 @@ outline:none;
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	-ms-backface-visibility: hidden;
+
+	-webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
 }
 
 header {
